@@ -5,12 +5,16 @@ gem 'rails', '4.2.11.3'
 
 gem 'rails-api', '~>0.4', '>=0.4.0'
 
-gem 'spring', '~>2.0', '>=2.0.0', :group => :development
+group :development do
+  gem 'spring', '~>2.0', '>=2.0.0'
+  gem 'rspec-rails', '~>3.5', '>=3.5.2'
+end
 
 
 gem 'pg', '~>0.19', '>=0.19.0'
 
-
+gem 'jbuilder', '~> 2.6.0'
+# gem 'capybara', '~> 2.10.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
