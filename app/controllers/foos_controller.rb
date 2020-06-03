@@ -6,13 +6,13 @@ class FoosController < ApplicationController
   def index
     @foos = Foo.all
 
-   render json: @foos
+   # render json: @foos
   end
 
   # GET /foos/1
   # GET /foos/1.json
   def show
-    render json: @foo
+    # render json: @foo
   end
 
   # POST /foos
