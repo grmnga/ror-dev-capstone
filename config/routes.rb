@@ -3,6 +3,10 @@ Rails.application.routes.draw do
     resources :foos, defaults: { format: 'json '} , except: [:new, :edit]
     resources :bars, defaults: { format: 'json '} , except: [:new, :edit]
   end
+
+  get '/ui' => 'ui#index'
+  get '/ui#' => 'ui#index'
+  root "ui#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
