@@ -13,7 +13,7 @@ group :development do
   gem 'rspec-rails', '~>3.5', '>=3.5.2'
 end
 
-
+gem 'puma', '~>3.6', '>=3.6.0' #, :platforms => :ruby
 gem 'pg', '~>0.19', '>=0.19.0'
 
 gem 'jbuilder', '~> 2.0', '>=2.6.0'
