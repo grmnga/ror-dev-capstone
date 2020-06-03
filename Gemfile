@@ -24,8 +24,8 @@ gem 'puma', '~>3.6', '>=3.6.0' #, :platforms => :ruby
 gem 'pg', '~>0.19', '>=0.19.0'
 
 gem 'jbuilder', '~> 2.0', '>=2.6.0'
-gem 'mongo', '2.3.1'
-gem 'mongoid', '~>5.1', '>=5.1.5'
+gem 'mongo', '2.10.0'
+gem 'mongoid', '5.4.0'
 # gem 'capybara', '~> 2.10.1'
 
 # To use ActiveModel has_secure_password
