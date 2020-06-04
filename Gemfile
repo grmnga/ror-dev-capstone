@@ -5,7 +5,7 @@ gem 'rails', '4.2.11.3'
 
 gem 'rails-api', '~>0.4', '>=0.4.0'
 gem 'pry-rails', '~>0.3.4'
-gem 'rack-cors', '~>0.4', '>=0.4.0', :require => 'rack/cors'
+gem 'rack-cors', '~>1.0', :require => 'rack/cors'
 
 group :development do
   gem 'spring', '~>2.0', '>=2.0.0'
