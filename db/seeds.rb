@@ -6,6 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-# 3.times do |i|
-#   Foo.create(:name => "test_#{i}")
-# end
+City.destroy_all
+City.create(:name => 'Baltimore')
+State.destroy_all
+State.create(name: 'Maryland')
