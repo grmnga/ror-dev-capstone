@@ -47,6 +47,7 @@
             vm.city.$update()
                 .then(function(response){
                     //console.log(response);
+                    newCity();
                 })
                 .catch(handleError);
         }
