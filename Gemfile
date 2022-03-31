@@ -20,7 +20,7 @@ group :production do
   gem 'rails_12factor', '~>0.0', '>=0.0.3'
 end
 
-gem 'puma', '~>3.6', '>=3.6.0' #, :platforms => :ruby
+gem 'puma', '~>4.3' #, :platforms => :ruby
 gem 'pg', '~>0.19', '>=0.19.0'
 
 gem 'jbuilder', '~> 2.0', '>=2.6.0'
